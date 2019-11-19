@@ -4,22 +4,10 @@
 
 {% block content %}
 
-<div class="jumbotron">
-  <h1 class="display-4">Hello, world!</h1>
-  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-  <hr class="my-4">
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-</div>
-
   <div class="container">
     <div class="row">
       <div class="col">
-        <h1>Queen</h1>
-        <p class="author">By Tehya Rassman</p>
-        <p class="date">
-          Published November 12, 2019</p>
-      </div>
+        <h2>Who is Queen?</h2>
     </div>
     <div class="row">
       <div class="col">
@@ -39,7 +27,7 @@
 
         <div class="row">
           {% for member in data.members %}
-            <div class="col-sm-3">
+            <div class="col-md-3 col-sm-6">
               <div class="card">
                 <img class="card-img-top" src="img/{{ member.imagebw }}" alt="Card image cap">
                 <div class="card-body">
@@ -50,4 +38,14 @@
             </div>
           {% endfor %}
         </div>
+        <div class="albums">
+        {% for album in data.discography %}
+        <ul class="list-group">
+  <li class="list-group-item">{{ album.title }}</li>
+  <li class="list-group-item">{{ album.year }}</li>
+  <li class="list-group-item">{{ album.image }}</li>
+</ul>
+{% endfor %}
+</div>
+
       {% endblock %}
