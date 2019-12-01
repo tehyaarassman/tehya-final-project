@@ -1,6 +1,27 @@
 // Custom variable overrides
 // See node_modules/bootstrap/scss/_variables.scss
+.albums {
+  padding: 2rem;
+  margin-top: 2rem;
+  border-top: 1.5px solid grey;
+}
+.cards {
+  margin-bottom: 3rem;
+}
 
+p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+  padding: 10px;
+}
 // $body-bg: black;
 // $body-color: white;
 // $link-hover-color: grey;
@@ -21,3 +42,5 @@
 // Import partials
 @import "nav";
 @import "jumbotron";
+
+
