@@ -1,2 +1,11 @@
 {% extends "_layouts/detail.njk" %}
 {% set members = data.members[1] %}
+<script>$(document).ready(function () {
+  $(".nav li").removeClass("active");//this will remove the active class from  
+                                     //previously active menu item 
+  $('#brian').addClass('active');
+  //for demo
+  //$('#demo').addClass('active');
+  //for sale 
+  //$('#sale').addClass('active');
+});</script>
