@@ -31,26 +31,38 @@
 <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul style="list-style-type:none" class="nav navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item">
-            <a class="current" href="index.html">
+            <a class="btn" href="index.html">
               <i class="icon-home"></i>Queen</a>
           </li>
           <li class="nav-item">
-            <a href="freddie-mercury.html">
+            <a class="btn" href="freddie-mercury.html">
               <i class="icon-user"></i>Freddie Mercury</a>
           </li>
           <li class="nav-item">
-            <a href="brian-may.html">
+            <a class="btn" href="brian-may.html">
               <i class="icon-thumbs-up-alt"></i>Brian May</a>
           </li>
           <li class="nav-item">
-            <a href="roger-taylor.html">
+            <a class="btn active" href="roger-taylor.html">
               <i class="icon-gear"></i>Roger Taylor</a>
           </li>
           <li class="nav-item">
-            <a href="john-deacon.html">
+            <a class="btn" href="john-deacon.html">
               <i class="icon-picture"></i>John Deacon</a>
           </li>
         </ul>
         </div>
+        <script>
+// Add active class to the current button (highlight it)
+var header = document.getElementById("navbarNavDropdown");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
+</script>
       </nav>
 

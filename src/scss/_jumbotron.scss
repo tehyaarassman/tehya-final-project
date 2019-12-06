@@ -8,3 +8,11 @@
 .jumbotron {
   margin-bottom: 30px;
 }
+// try to get media querie to work here
+@media (max-width: 767px) {
+  .column {
+      width: 100%;
+      background: url(../img/queen-band-early.jpg);
+  }
+}
+
