@@ -24,8 +24,9 @@
       </p>
     </div>
   </div>
+ </div>
 <div class="container">
-  <div class="row" id="cards">
+  <div class="row mb-4" id="cards">
     {% for member in data.members %}
       <div class="col-md-3 col-sm-6">
         <div class="card">
@@ -43,12 +44,12 @@
   <div class="albums">
     <div class="row">
       {% for album in data.discography %}
-        <div class="col-md-6 col-sm-12">
-          <ul style="list-style-type:none">
-            <li><img src="img/{{ album.image }}" alt="{{ album.title }}"></li>
-            <li>{{ album.title }}</li>
-            <li>{{ album.year }}</li>
-          </ul>
+        <div class="col-sm-6 col-md-4 mb-4">
+
+            <img class="img-fluid" src="img/{{ album.image }}" alt="{{ album.title }}">
+            <h4>{{ album.title }}</h4>
+            <h5>{{ album.year }}</h5>
+
         </div>
       {% endfor %}
     </div>

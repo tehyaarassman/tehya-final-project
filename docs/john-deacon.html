@@ -11,49 +11,31 @@
 </head>
 <body>
   
-
-<nav class="navbar navbar-expand-lg topnav navbar-dark bg-black">
+ <nav class="navbar navbar-expand-lg topnav navbar-dark bg-black">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
- 
-<div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul style="list-style-type:none" class="nav navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item">
-            <a class="btn" href="index.html">
-              <i class="icon-home"></i>Queen</a>
-          </li>
-          <li class="nav-item">
-            <a class="btn" href="freddie-mercury.html">
-              <i class="icon-user"></i>Freddie Mercury</a>
-          </li>
-          <li class="nav-item">
-            <a class="btn" href="brian-may.html">
-              <i class="icon-thumbs-up-alt"></i>Brian May</a>
-          </li>
-          <li class="nav-item">
-            <a class="btn active" href="roger-taylor.html">
-              <i class="icon-gear"></i>Roger Taylor</a>
-          </li>
-          <li class="nav-item">
-            <a class="btn" href="john-deacon.html">
-              <i class="icon-picture"></i>John Deacon</a>
-          </li>
-        </ul>
-        </div>
-        <script>
-// Add active class to the current button (highlight it)
-var header = document.getElementById("navbarNavDropdown");
-var btns = header.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-  var current = document.getElementsByClassName("active");
-  current[0].className = current[0].className.replace(" active", "");
-  this.className += " active";
-  });
-}
-</script>
-      </nav>
+
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul style="list-style-type:none" class="nav navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Queen</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="freddie-mercury.html">Freddie Mercury</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="brian-may.html">Brian May</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="roger-taylor.html">Roger Taylor</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="john-deacon.html">John Deacon</a>
+      </li>
+    </ul>
+  </div>
+</nav> 
 
 
 
@@ -65,11 +47,11 @@ for (var i = 0; i < btns.length; i++) {
   
 <article class="container">
   <div class="row">
-    <div class="col-sm-4 left-rail">
-      <img src="img/john-deacon-bw.jpg">
-      <caption> Bass, guitar, keyboards
+    <div class="col-lg-4 col-sm-12 text-center">
+      <img class="img-fluid member-img" src="img/john-deacon-bw.jpg">
+      <p> Bass, guitar, keyboards</p>
     </div>
-    <div class="col-sm-8">
+    <div class="col-lg-8 col-sm-12 member-text">
       <h3> John Deacon </h3>
       <p> <p>John Richard Deacon (born 19 August 1951) is an English retired musician, best known for being the bass guitarist for the rock band Queen. He composed several singles for the group—including Top 10 hits "You're My Best Friend", "Another One Bites the Dust", "Back Chat", and "I Want to Break Free"—and was involved in the band's financial management.</p>
 <p>Deacon grew up in Oadby, Leicestershire, playing bass in a local band, The Opposition, before moving to study electronics at Chelsea College, London. He joined Queen in 1971 on the strength of his musical and electronic skills, particularly the home-made Deacy Amp which guitarist Brian May used to create guitar orchestras throughout Queen's career. From the third album, Sheer Heart Attack, onwards, he wrote at least one song per album, several of which became hits. As well as bass, Deacon played some guitar and keyboards on Queen's studio work, but was the only member never to sing on their records, though he did contribute backing vocals during live performances.</p>

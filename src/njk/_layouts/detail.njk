@@ -3,11 +3,11 @@
 {% block content %}
 <article class="container">
   <div class="row">
-    <div class="col-sm-4 left-rail">
-      <img src="img/{{ members.imagebw }}">
-      <caption> {{ members.instruments }}
+    <div class="col-lg-4 col-sm-12 text-center">
+      <img class="img-fluid member-img" src="img/{{ members.imagebw }}">
+      <p> {{ members.instruments }}</p>
     </div>
-    <div class="col-sm-8">
+    <div class="col-lg-8 col-sm-12 member-text">
       <h3> {{ members.name }} </h3>
       <p> {{ members.text | safe }} </p>
     </div>

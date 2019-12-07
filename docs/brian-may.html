@@ -11,49 +11,31 @@
 </head>
 <body>
   
-
-<nav class="navbar navbar-expand-lg topnav navbar-dark bg-black">
+ <nav class="navbar navbar-expand-lg topnav navbar-dark bg-black">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
- 
-<div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul style="list-style-type:none" class="nav navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item">
-            <a class="btn" href="index.html">
-              <i class="icon-home"></i>Queen</a>
-          </li>
-          <li class="nav-item">
-            <a class="btn" href="freddie-mercury.html">
-              <i class="icon-user"></i>Freddie Mercury</a>
-          </li>
-          <li class="nav-item">
-            <a class="btn" href="brian-may.html">
-              <i class="icon-thumbs-up-alt"></i>Brian May</a>
-          </li>
-          <li class="nav-item">
-            <a class="btn active" href="roger-taylor.html">
-              <i class="icon-gear"></i>Roger Taylor</a>
-          </li>
-          <li class="nav-item">
-            <a class="btn" href="john-deacon.html">
-              <i class="icon-picture"></i>John Deacon</a>
-          </li>
-        </ul>
-        </div>
-        <script>
-// Add active class to the current button (highlight it)
-var header = document.getElementById("navbarNavDropdown");
-var btns = header.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-  var current = document.getElementsByClassName("active");
-  current[0].className = current[0].className.replace(" active", "");
-  this.className += " active";
-  });
-}
-</script>
-      </nav>
+
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul style="list-style-type:none" class="nav navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Queen</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="freddie-mercury.html">Freddie Mercury</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="brian-may.html">Brian May</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="roger-taylor.html">Roger Taylor</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="john-deacon.html">John Deacon</a>
+      </li>
+    </ul>
+  </div>
+</nav> 
 
 
 
@@ -65,11 +47,11 @@ for (var i = 0; i < btns.length; i++) {
   
 <article class="container">
   <div class="row">
-    <div class="col-sm-4 left-rail">
-      <img src="img/brian-may-bw.jpg">
-      <caption> Guitar, keyboards, vocals
+    <div class="col-lg-4 col-sm-12 text-center">
+      <img class="img-fluid member-img" src="img/brian-may-bw.jpg">
+      <p> Guitar, keyboards, vocals</p>
     </div>
-    <div class="col-sm-8">
+    <div class="col-lg-8 col-sm-12 member-text">
       <h3> Brian May </h3>
       <p> <p>Brian Harold May, CBE (born 19 July 1947) is an English musician, singer, songwriter and photographer. He is best known as the lead guitarist of the rock band Queen. In 2001, he was inducted into the Rock and Roll Hall of Fame as one of the band's members; and in 2018, he received the Grammy Lifetime Achievement Award which recognises "the most distinctive recordings in music history". He uses a home-built electric guitar called the Red Special. His compositions for the band include "We Will Rock You", "Tie Your Mother Down", "I Want It All", "Fat Bottomed Girls", "Flash", "Hammer to Fall", "Save Me", "Who Wants to Live Forever", and "The Show Must Go On".</p>
 <p>May was a co-founder of Queen with lead singer Freddie Mercury and drummer Roger Taylor, having previously performed with Taylor in the band Smile, which he had joined while he was at university. Within five years of their formation in 1970 and the recruitment of bass player John Deacon completing the lineup, Queen had become one of the biggest rock bands in the world with the success of the album A Night at the Opera and its song "Bohemian Rhapsody". From the mid-1970s until the early 1990s, Queen were an almost constant presence in the UK charts and played some of the biggest venues in the world, most notably giving an acclaimed performance at Live Aid in 1985. As a member of Queen, May became regarded as a virtuoso musician and he was identified with a distinctive sound created through his layered guitar work.</p>

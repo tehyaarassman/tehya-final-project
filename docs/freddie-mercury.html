@@ -11,49 +11,31 @@
 </head>
 <body>
   
-
-<nav class="navbar navbar-expand-lg topnav navbar-dark bg-black">
+ <nav class="navbar navbar-expand-lg topnav navbar-dark bg-black">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
- 
-<div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul style="list-style-type:none" class="nav navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item">
-            <a class="btn" href="index.html">
-              <i class="icon-home"></i>Queen</a>
-          </li>
-          <li class="nav-item">
-            <a class="btn" href="freddie-mercury.html">
-              <i class="icon-user"></i>Freddie Mercury</a>
-          </li>
-          <li class="nav-item">
-            <a class="btn" href="brian-may.html">
-              <i class="icon-thumbs-up-alt"></i>Brian May</a>
-          </li>
-          <li class="nav-item">
-            <a class="btn active" href="roger-taylor.html">
-              <i class="icon-gear"></i>Roger Taylor</a>
-          </li>
-          <li class="nav-item">
-            <a class="btn" href="john-deacon.html">
-              <i class="icon-picture"></i>John Deacon</a>
-          </li>
-        </ul>
-        </div>
-        <script>
-// Add active class to the current button (highlight it)
-var header = document.getElementById("navbarNavDropdown");
-var btns = header.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-  var current = document.getElementsByClassName("active");
-  current[0].className = current[0].className.replace(" active", "");
-  this.className += " active";
-  });
-}
-</script>
-      </nav>
+
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul style="list-style-type:none" class="nav navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Queen</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="freddie-mercury.html">Freddie Mercury</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="brian-may.html">Brian May</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="roger-taylor.html">Roger Taylor</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="john-deacon.html">John Deacon</a>
+      </li>
+    </ul>
+  </div>
+</nav> 
 
 
 
@@ -65,11 +47,11 @@ for (var i = 0; i < btns.length; i++) {
   
 <article class="container">
   <div class="row">
-    <div class="col-sm-4 left-rail">
-      <img src="img/freddie-mercury-bw.jpg">
-      <caption> Vocals, keyboards
+    <div class="col-lg-4 col-sm-12 text-center">
+      <img class="img-fluid member-img" src="img/freddie-mercury-bw.jpg">
+      <p> Vocals, keyboards</p>
     </div>
-    <div class="col-sm-8">
+    <div class="col-lg-8 col-sm-12 member-text">
       <h3> Freddie Mercury </h3>
       <p> <p>Farrokh Bulsara (5 September 1946 – 24 November 1991), known professionally as Freddie Mercury, was a British singer-songwriter and record producer, best known as the lead vocalist of the rock band Queen. He was known for his flamboyant stage persona and four-octave vocal range. Mercury wrote numerous hits for Queen, including "Bohemian Rhapsody", "Killer Queen", "Somebody to Love", "Don't Stop Me Now", "Crazy Little Thing Called Love", and "We Are the Champions". He led a solo career while performing with Queen, and occasionally served as a producer and guest musician for other artists.</p>
 <p>Mercury was born of Parsi descent on Zanzibar, and grew up there and in India before moving with his family to Middlesex, England, in his late teens. He formed Queen in 1970 with guitarist Brian May and drummer Roger Taylor. Mercury died in 1991 at age 45 due to complications from AIDS, having confirmed the day before his death that he had contracted the disease.</p>

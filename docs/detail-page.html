@@ -11,49 +11,31 @@
 </head>
 <body>
   
-
-<nav class="navbar navbar-expand-lg topnav navbar-dark bg-black">
+ <nav class="navbar navbar-expand-lg topnav navbar-dark bg-black">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
- 
-<div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul style="list-style-type:none" class="nav navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item">
-            <a class="btn" href="index.html">
-              <i class="icon-home"></i>Queen</a>
-          </li>
-          <li class="nav-item">
-            <a class="btn" href="freddie-mercury.html">
-              <i class="icon-user"></i>Freddie Mercury</a>
-          </li>
-          <li class="nav-item">
-            <a class="btn" href="brian-may.html">
-              <i class="icon-thumbs-up-alt"></i>Brian May</a>
-          </li>
-          <li class="nav-item">
-            <a class="btn active" href="roger-taylor.html">
-              <i class="icon-gear"></i>Roger Taylor</a>
-          </li>
-          <li class="nav-item">
-            <a class="btn" href="john-deacon.html">
-              <i class="icon-picture"></i>John Deacon</a>
-          </li>
-        </ul>
-        </div>
-        <script>
-// Add active class to the current button (highlight it)
-var header = document.getElementById("navbarNavDropdown");
-var btns = header.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-  var current = document.getElementsByClassName("active");
-  current[0].className = current[0].className.replace(" active", "");
-  this.className += " active";
-  });
-}
-</script>
-      </nav>
+
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul style="list-style-type:none" class="nav navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Queen</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="freddie-mercury.html">Freddie Mercury</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="brian-may.html">Brian May</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="roger-taylor.html">Roger Taylor</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="john-deacon.html">John Deacon</a>
+      </li>
+    </ul>
+  </div>
+</nav> 
 
 
 
@@ -65,11 +47,11 @@ for (var i = 0; i < btns.length; i++) {
   
 <article class="container">
   <div class="row">
-    <div class="col-sm-4 left-rail">
-      <img src="img/">
-      <caption> 
+    <div class="col-lg-4 col-sm-12 text-center">
+      <img class="img-fluid member-img" src="img/">
+      <p> </p>
     </div>
-    <div class="col-sm-8">
+    <div class="col-lg-8 col-sm-12 member-text">
       <h3>  </h3>
       <p>  </p>
     </div>

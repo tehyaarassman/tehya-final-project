@@ -9,10 +9,11 @@
   margin-bottom: 30px;
 }
 // try to get media querie to work here
-@media (max-width: 767px) {
-  .column {
-      width: 100%;
-      background: url(../img/queen-band-early.jpg);
+@media only screen and (max-width: 600px) {
+  .jumbotron.banner {
+    background: url(../img/queen-band-wallpaper.jpg);
+    background-position: center center;
+    background-size: 1000px;
   }
 }
 

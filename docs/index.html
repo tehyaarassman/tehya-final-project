@@ -11,49 +11,31 @@
 </head>
 <body>
   
-
-<nav class="navbar navbar-expand-lg topnav navbar-dark bg-black">
+ <nav class="navbar navbar-expand-lg topnav navbar-dark bg-black">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
- 
-<div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul style="list-style-type:none" class="nav navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item">
-            <a class="btn" href="index.html">
-              <i class="icon-home"></i>Queen</a>
-          </li>
-          <li class="nav-item">
-            <a class="btn" href="freddie-mercury.html">
-              <i class="icon-user"></i>Freddie Mercury</a>
-          </li>
-          <li class="nav-item">
-            <a class="btn" href="brian-may.html">
-              <i class="icon-thumbs-up-alt"></i>Brian May</a>
-          </li>
-          <li class="nav-item">
-            <a class="btn active" href="roger-taylor.html">
-              <i class="icon-gear"></i>Roger Taylor</a>
-          </li>
-          <li class="nav-item">
-            <a class="btn" href="john-deacon.html">
-              <i class="icon-picture"></i>John Deacon</a>
-          </li>
-        </ul>
-        </div>
-        <script>
-// Add active class to the current button (highlight it)
-var header = document.getElementById("navbarNavDropdown");
-var btns = header.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-  var current = document.getElementsByClassName("active");
-  current[0].className = current[0].className.replace(" active", "");
-  this.className += " active";
-  });
-}
-</script>
-      </nav>
+
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul style="list-style-type:none" class="nav navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Queen</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="freddie-mercury.html">Freddie Mercury</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="brian-may.html">Brian May</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="roger-taylor.html">Roger Taylor</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="john-deacon.html">John Deacon</a>
+      </li>
+    </ul>
+  </div>
+</nav> 
 
 
 
@@ -84,8 +66,9 @@ for (var i = 0; i < btns.length; i++) {
       </p>
     </div>
   </div>
+ </div>
 <div class="container">
-  <div class="row" id="cards">
+  <div class="row mb-4" id="cards">
     
       <div class="col-md-3 col-sm-6">
         <div class="card">
@@ -133,124 +116,124 @@ for (var i = 0; i < btns.length; i++) {
   <div class="albums">
     <div class="row">
       
-        <div class="col-md-6 col-sm-12">
-          <ul style="list-style-type:none">
-            <li><img src="img/Queen_Queen.png" alt="Queen"></li>
-            <li>Queen</li>
-            <li>1973</li>
-          </ul>
+        <div class="col-sm-6 col-md-4 mb-4">
+
+            <img class="img-fluid" src="img/Queen_Queen.png" alt="Queen">
+            <h4>Queen</h4>
+            <h5>1973</h5>
+
         </div>
       
-        <div class="col-md-6 col-sm-12">
-          <ul style="list-style-type:none">
-            <li><img src="img/Queen_Queen_II.jpg" alt="Queen II"></li>
-            <li>Queen II</li>
-            <li>1974</li>
-          </ul>
+        <div class="col-sm-6 col-md-4 mb-4">
+
+            <img class="img-fluid" src="img/Queen_Queen_II.jpg" alt="Queen II">
+            <h4>Queen II</h4>
+            <h5>1974</h5>
+
         </div>
       
-        <div class="col-md-6 col-sm-12">
-          <ul style="list-style-type:none">
-            <li><img src="img/Queen_Sheer_Heart_Attack.png" alt="Sheer Heart Attack"></li>
-            <li>Sheer Heart Attack</li>
-            <li>1974</li>
-          </ul>
+        <div class="col-sm-6 col-md-4 mb-4">
+
+            <img class="img-fluid" src="img/Queen_Sheer_Heart_Attack.png" alt="Sheer Heart Attack">
+            <h4>Sheer Heart Attack</h4>
+            <h5>1974</h5>
+
         </div>
       
-        <div class="col-md-6 col-sm-12">
-          <ul style="list-style-type:none">
-            <li><img src="img/Queen_A_Night_At_The_Opera.png" alt="A Night at the Opera"></li>
-            <li>A Night at the Opera</li>
-            <li>1975</li>
-          </ul>
+        <div class="col-sm-6 col-md-4 mb-4">
+
+            <img class="img-fluid" src="img/Queen_A_Night_At_The_Opera.png" alt="A Night at the Opera">
+            <h4>A Night at the Opera</h4>
+            <h5>1975</h5>
+
         </div>
       
-        <div class="col-md-6 col-sm-12">
-          <ul style="list-style-type:none">
-            <li><img src="img/Queen_A_Day_at_the_Races.jpg" alt="A Day at the Races"></li>
-            <li>A Day at the Races</li>
-            <li>1976</li>
-          </ul>
+        <div class="col-sm-6 col-md-4 mb-4">
+
+            <img class="img-fluid" src="img/Queen_A_Day_at_the_Races.jpg" alt="A Day at the Races">
+            <h4>A Day at the Races</h4>
+            <h5>1976</h5>
+
         </div>
       
-        <div class="col-md-6 col-sm-12">
-          <ul style="list-style-type:none">
-            <li><img src="img/Queen_News_Of_The_World.png" alt="News of the World"></li>
-            <li>News of the World</li>
-            <li>1977</li>
-          </ul>
+        <div class="col-sm-6 col-md-4 mb-4">
+
+            <img class="img-fluid" src="img/Queen_News_Of_The_World.png" alt="News of the World">
+            <h4>News of the World</h4>
+            <h5>1977</h5>
+
         </div>
       
-        <div class="col-md-6 col-sm-12">
-          <ul style="list-style-type:none">
-            <li><img src="img/Queen_Jazz.png" alt="Jazz"></li>
-            <li>Jazz</li>
-            <li>1978</li>
-          </ul>
+        <div class="col-sm-6 col-md-4 mb-4">
+
+            <img class="img-fluid" src="img/Queen_Jazz.png" alt="Jazz">
+            <h4>Jazz</h4>
+            <h5>1978</h5>
+
         </div>
       
-        <div class="col-md-6 col-sm-12">
-          <ul style="list-style-type:none">
-            <li><img src="img/Queen_The_Game.png" alt="The Game"></li>
-            <li>The Game</li>
-            <li>1980</li>
-          </ul>
+        <div class="col-sm-6 col-md-4 mb-4">
+
+            <img class="img-fluid" src="img/Queen_The_Game.png" alt="The Game">
+            <h4>The Game</h4>
+            <h5>1980</h5>
+
         </div>
       
-        <div class="col-md-6 col-sm-12">
-          <ul style="list-style-type:none">
-            <li><img src="img/Queen_Flash_Gordon.png" alt="Flash Gordon (Original Soundtrack)"></li>
-            <li>Flash Gordon (Original Soundtrack)</li>
-            <li>1980</li>
-          </ul>
+        <div class="col-sm-6 col-md-4 mb-4">
+
+            <img class="img-fluid" src="img/Queen_Flash_Gordon.png" alt="Flash Gordon (Original Soundtrack)">
+            <h4>Flash Gordon (Original Soundtrack)</h4>
+            <h5>1980</h5>
+
         </div>
       
-        <div class="col-md-6 col-sm-12">
-          <ul style="list-style-type:none">
-            <li><img src="img/Queen_Hot_Space.png" alt="Hot Space"></li>
-            <li>Hot Space</li>
-            <li>1982</li>
-          </ul>
+        <div class="col-sm-6 col-md-4 mb-4">
+
+            <img class="img-fluid" src="img/Queen_Hot_Space.png" alt="Hot Space">
+            <h4>Hot Space</h4>
+            <h5>1982</h5>
+
         </div>
       
-        <div class="col-md-6 col-sm-12">
-          <ul style="list-style-type:none">
-            <li><img src="img/Queen_The_Works.png" alt="The Works"></li>
-            <li>The Works</li>
-            <li>1984</li>
-          </ul>
+        <div class="col-sm-6 col-md-4 mb-4">
+
+            <img class="img-fluid" src="img/Queen_The_Works.png" alt="The Works">
+            <h4>The Works</h4>
+            <h5>1984</h5>
+
         </div>
       
-        <div class="col-md-6 col-sm-12">
-          <ul style="list-style-type:none">
-            <li><img src="img/Queen_A_Kind_Of_Magic.png" alt="A Kind of Magic"></li>
-            <li>A Kind of Magic</li>
-            <li>1986</li>
-          </ul>
+        <div class="col-sm-6 col-md-4 mb-4">
+
+            <img class="img-fluid" src="img/Queen_A_Kind_Of_Magic.png" alt="A Kind of Magic">
+            <h4>A Kind of Magic</h4>
+            <h5>1986</h5>
+
         </div>
       
-        <div class="col-md-6 col-sm-12">
-          <ul style="list-style-type:none">
-            <li><img src="img/Queen_The_Miracle.png" alt="The Miracle"></li>
-            <li>The Miracle</li>
-            <li>1989</li>
-          </ul>
+        <div class="col-sm-6 col-md-4 mb-4">
+
+            <img class="img-fluid" src="img/Queen_The_Miracle.png" alt="The Miracle">
+            <h4>The Miracle</h4>
+            <h5>1989</h5>
+
         </div>
       
-        <div class="col-md-6 col-sm-12">
-          <ul style="list-style-type:none">
-            <li><img src="img/Queen_Innuendo.png" alt="Innuendo"></li>
-            <li>Innuendo</li>
-            <li>1991</li>
-          </ul>
+        <div class="col-sm-6 col-md-4 mb-4">
+
+            <img class="img-fluid" src="img/Queen_Innuendo.png" alt="Innuendo">
+            <h4>Innuendo</h4>
+            <h5>1991</h5>
+
         </div>
       
-        <div class="col-md-6 col-sm-12">
-          <ul style="list-style-type:none">
-            <li><img src="img/Queen_Made_in_Heaven.jpg" alt="Made in Heaven"></li>
-            <li>Made in Heaven</li>
-            <li>1995</li>
-          </ul>
+        <div class="col-sm-6 col-md-4 mb-4">
+
+            <img class="img-fluid" src="img/Queen_Made_in_Heaven.jpg" alt="Made in Heaven">
+            <h4>Made in Heaven</h4>
+            <h5>1995</h5>
+
         </div>
       
     </div>
