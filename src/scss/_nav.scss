@@ -41,7 +41,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color:white; 
+  background-color:rgb(65, 61, 61); 
   color: black; 
   transition: all 0.5s ease 0s;
 }
@@ -54,6 +54,6 @@ nav ul li a:hover {
 .active a{
   border-color: white;
   color: black; 
-  background-color: gray;
+  background-color: rgb(65, 61, 61);
 }
 /* Style the links inside the navigation bar */

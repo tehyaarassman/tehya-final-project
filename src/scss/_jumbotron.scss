@@ -17,3 +17,10 @@
   }
 }
 
+@media only screen and (max-width: 990px) {
+  .jumbotron.banner {
+    background: url(../img/queen-band-wallpaper.jpg);
+    background-position: center center;
+    background-size: 1000px;
+  }
+}

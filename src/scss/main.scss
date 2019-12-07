@@ -29,10 +29,14 @@
 .cards {
   margin-bottom: 5rem;
 }
+.card{
+  margin: 15px 0 15px 0;
+}
 
 p {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: larger;
+  margin:20px;
 }
 
 h1 {
@@ -41,6 +45,10 @@ h1 {
 
 h2 {
   text-align: center;
+}
+
+h5 {
+  margin-top: 10px;
 }
 
 li {
@@ -56,13 +64,18 @@ h3 {
 
 .member-img{
   padding-top: 55px;
-  
 }
 
 .albums {
   text-align: center;
   margin-top: 75px;
-
 }
 
+.btn-primary {
+  background-color:rgb(65, 61, 61);
+  width: 100%;
+}
 
+.card-title {
+  font-size: large;
+}
